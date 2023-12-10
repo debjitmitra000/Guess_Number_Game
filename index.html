@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Guess Number</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess The Number</h1>
+        <input id="guess" type="text" placeholder="Enter Number">
+        <h4>Guess A Number Between 1 And 100</h4>
+        <br>
+        <button id="submit">submit</button>
+        <p class="previous" align="center">Previous Submits:<br><span class="previousguess"></span></p>
+        <p class="remaining" align="center">Remaining:<span class="remainingguess"></span></p>
+        <p class="loworhigh"></p>
+        <p id="para" align="center"></p>
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
